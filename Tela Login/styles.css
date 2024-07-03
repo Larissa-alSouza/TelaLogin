@@ -1,0 +1,56 @@
+body{
+    color: white;
+    background-color: #393d42;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 180px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 60%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="text"], [type="password"] {
+    height: 32px;
+    width: 57%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 20px;
+    height: 35px;
+    width: 55%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    
+}
